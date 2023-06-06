@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+        # = Id
+        . = class
+        : = pseudo class
+        :: = pseudo element
+        > = children
+*/
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(51, 38, 63);
+}
+
+a:hover {
+    color: rgb(55, 44, 65);
+    text-decoration: underline 
+}
+
+a:active {
+    color: rgb(44, 42, 46);
+}
+
+a::after {
+    content: ' [link] ';
+}
